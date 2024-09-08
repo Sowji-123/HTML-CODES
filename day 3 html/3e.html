@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .one{
+            background-color: rgb(10, 102, 194);
+            border: none;
+            height: 40px;
+            border-radius: 20px;
+            padding: 12px 20px ;
+            color: white;
+            font-weight:bold;
+            font-size:medium;
+            transition: 0.3s background-color;
+        }
+        .two{
+            height: 40px;
+            border-radius: 20px;
+            padding: 0 23px;
+            color: rgb(10, 102, 194);
+            border-color: rgb(10, 102, 194);
+            font-weight: bold;
+            font-size:medium;
+            margin-left: 3px;
+            transition: 0.9s background-color;
+        }
+        .one:hover{
+            cursor: pointer;
+            background-color: rgb(2, 50, 99);
+           
+        }
+        .one:active{
+            color: rgb(142, 169, 195);
+        }
+        .two:hover{
+            border: 3px solid  rgb(2, 50, 99);
+            
+
+        }
+        .two:active{
+            background-color:  rgb(142, 169, 195);
+        }
+    </style>
+</head>
+<body>
+    <button class="one">
+        Apply on company website
+    </button>
+    <button class="two">
+        Save
+    </button>
+</body>
+</html>
